@@ -3,9 +3,9 @@ from playwright.sync_api import Page, expect
 from playwright.sync_api import sync_playwright
 from pages.main_page import MainPage
 
-# with sync_playwright() as p:
-#     browser = p.chromium.launch_persistent_context(user_data_dir= r"C:\Users\User\AppData\Local\Google\Chrome\User Data\Default\Extensions\cfhdojbkjhnklbpkdaibdccddilifddb", headless=False)
-#     page = browser.new_page()
+with sync_playwright() as p:
+    browser = p.chromium.launch_persistent_context(user_data_dir= r"C:\Users\User\AppData\Local\Google\Chrome\User Data\Default\Extensions\cfhdojbkjhnklbpkdaibdccddilifddb", headless=False)
+    page = browser.new_page()
 
 
     
