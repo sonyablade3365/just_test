@@ -9,7 +9,6 @@ import allure
 #     page = browser.new_page()
 
 
-    
 class TestRegistration:
     @allure.title("Main page")
     def test_has_title(self, page: MainPage):
