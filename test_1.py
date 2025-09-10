@@ -2,6 +2,7 @@ import re
 from playwright.sync_api import Page, expect
 from playwright.sync_api import sync_playwright
 from pages.main_page import MainPage
+import allure
 
 # with sync_playwright() as p:
 #     browser = p.chromium.launch_persistent_context(user_data_dir= r"C:\Users\User\AppData\Local\Google\Chrome\User Data\Default\Extensions\cfhdojbkjhnklbpkdaibdccddilifddb", headless=False)
@@ -10,6 +11,7 @@ from pages.main_page import MainPage
 
     
 class TestRegistration:
+    @allure.title("Main page")
     def test_has_title(self, page: MainPage):
         page.goto("https://news.sportbox.ru/")
         # Expect a title "to contain" a substring.
