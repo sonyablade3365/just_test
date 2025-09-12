@@ -1,0 +1,2 @@
+2025-09-12 16:04:51,747 | BASE_PAGE | INFO | Opening the url "https://news.sportbox.ru/"
+2025-09-12 16:05:16,676 | BASE_PAGE | INFO | Checking that current url matches pattern "https://news.sportbox.ru/"
