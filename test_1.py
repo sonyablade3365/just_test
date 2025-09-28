@@ -15,6 +15,10 @@ class TestRegistration:
         page.goto("https://news.sportbox.ru/")
         # Expect a title "to contain" a substring.
         expect(page).to_have_title(re.compile("Новости спорта, Спортивная аналитика, Видео"))
+    
+    def test_has_sidebar_on_main_page(self, main_page: MainPage):
+        main_page.visit("https://news.sportbox.ru/")
+        main_page.sidebar.check_visible_by_id(main_page.sidebar.locator_id)
 
     def test_get_sing_button(self, page: Page):
         page.goto("https://news.sportbox.ru/")
