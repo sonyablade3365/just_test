@@ -1,0 +1,1 @@
+INFO     BASE_PAGE:base_page.py:18 Opening the url "https://news.sportbox.ru/"

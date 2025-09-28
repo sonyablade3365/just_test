@@ -1,0 +1,2 @@
+2025-09-28 12:36:01,985 | BASE_PAGE | INFO | Opening the url "https://news.sportbox.ru/"
+2025-09-28 12:36:14,706 | BASE_COMPONENT | INFO | Checking visible component by id "sidebar"

@@ -1,0 +1,2 @@
+INFO     BASE_PAGE:base_page.py:18 Opening the url "https://news.sportbox.ru/"
+INFO     BASE_COMPONENT:base_component.py:25 Checking visible component by id "sidebar"
