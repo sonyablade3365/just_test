@@ -17,6 +17,7 @@ class TestRegistration:
         expect(page).to_have_title(re.compile("Новости спорта, Спортивная аналитика, Видео"))
     
     def test_has_sidebar_on_main_page(self, main_page: MainPage):
+        """Проверяет наличие бокового меню на главной"""
         main_page.visit("https://news.sportbox.ru/")
         main_page.sidebar.check_visible_by_id(main_page.sidebar.locator_id)
 
